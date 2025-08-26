@@ -18,7 +18,18 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'manrope': ['Manrope', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
+			},
 			colors: {
+				'zap-green': 'hsl(var(--zap-green))',
+				'zap-green-dark': 'hsl(var(--zap-green-dark))',
+				'zap-charcoal': 'hsl(var(--zap-charcoal))',
+				'zap-gray': 'hsl(var(--zap-gray))',
+				'zap-gray-light': 'hsl(var(--zap-gray-light))',
+				'zap-neutral-light': 'hsl(var(--zap-neutral-light))',
+				'zap-whatsapp': 'hsl(var(--zap-whatsapp))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
