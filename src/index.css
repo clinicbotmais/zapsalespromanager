@@ -135,4 +135,15 @@
   .whatsapp-float {
     @apply fixed bottom-6 right-6 bg-[hsl(var(--zap-whatsapp))] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-all duration-200 z-50;
   }
+
+  /* Animation delays */
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
 }
